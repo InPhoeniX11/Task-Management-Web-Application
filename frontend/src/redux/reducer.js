@@ -13,5 +13,6 @@ export const reducer=(store={user:{},tasks:undefined,home_pageData:{}},{type,pay
                     return {...store,tasks:payload}
                  default:
                      return store
+                 
              }
 }
