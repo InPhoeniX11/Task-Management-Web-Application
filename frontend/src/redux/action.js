@@ -27,8 +27,6 @@ export const removeTask=()=>{
 }
  
 
-
-
 export const Auth=(data)=>{
     return {
         type:AUTH,
