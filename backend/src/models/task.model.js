@@ -19,5 +19,6 @@ const taskSchema=new mongoose.Schema({
     status:{type:String,required:false,default:"pending"}
 })
 
+
 const Task=mongoose.model("task",taskSchema)
 module.exports=Task
