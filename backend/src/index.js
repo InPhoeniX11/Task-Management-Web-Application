@@ -32,6 +32,8 @@ app.post(
       ),
     register
   );
+
+
   app.post(
     "/login",
     body("email")
@@ -42,4 +44,5 @@ app.post(
     body("password").notEmpty().withMessage("password is required"),
     login
   );
+
 module.exports=app
